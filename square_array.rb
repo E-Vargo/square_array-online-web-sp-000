@@ -3,6 +3,6 @@ def square_array(array)
   squared_array = []
  array.each do |number|
 squared_array.unshift(number**2)
-squared_array
+return squared_array
 end
 end
